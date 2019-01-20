@@ -3,7 +3,7 @@ var ruta=express.Router();
 var app=express();
 
 var mongo=require("mongoose");
-mongo.connect("mongodb://localhost:27017/contactos").then(db=>console.log('DB esta Conectado')).catch(error=>console.log(error));
+mongo.connect("mongodb://contacto:abc123@ds161764.mlab.com:61764/contactos").then(db=>console.log('DB esta Conectado')).catch(error=>console.log(error));
 
 app.get("/",function(req,res){
 	res.send("Conectado");
