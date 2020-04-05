@@ -12,14 +12,9 @@ solo ejecuta "mongod"
 ### `node server/server.js`
 
 Esto desplegará el "express JS" por la configuracion
-en el puerto 3001
+en el puerto 3000
 
 ### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-Ahora solo espere
-
-
-welle estuvo aqui :v
